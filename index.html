@@ -65,73 +65,7 @@
   </header>
    
   <main>
-    <style>
-  :root{
-    --card-dark:#ffffff;   /* fondo del mensaje */
-    --icon-bg:#ffcc00;     /* fondo del icono */
-    --text:#0f1923;
-    --radius:16px;
-    --padY: clamp(10px,1.6vw,14px);
-    --padX: clamp(12px,2vw,18px);
-    --iconW: clamp(44px,5.2vw,58px);
-    --title: clamp(16px,1.8vw,20px);
-    --font:  clamp(13px,1.35vw,16px);
-    --maxw: 960px;
-  }
-
-  .bank-note{
-    font-family: Inter, system-ui, Arial, sans-serif;
-    max-width: var(--maxw);
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: var(--iconW) 1fr;
-    align-items: stretch;          /* alturas iguales */
-    gap: 0;                        /* pegados */
-    padding: 0 clamp(8px,1.2vw,14px);
-  }
-
-  .bank-note__icon{
-    background: var(--icon-bg);
-    border-radius: var(--radius) 0 0 var(--radius); /* esquinas izquierda */
-    display: grid;
-    place-items: center;
-    padding: clamp(8px,1.2vw,10px); /* reduce altura visual */
-  }
-  .bank-note__icon svg{
-    width: clamp(20px,2.6vw,26px);
-    height: clamp(20px,2.6vw,26px);
-    display: block;
-  }
-
-  .bank-note__card{
-    background: var(--card-dark);
-    color: var(--text);
-    border-radius: 0 var(--radius) var(--radius) 0; /* esquinas derecha */
-    padding: var(--padY) var(--padX);
-    line-height: 1.4;
-    box-shadow: 0 6px 18px rgba(0,0,0,.18);
-  }
-
-  .bank-note__title{
-    font-size: var(--title);
-    font-weight: 700;
-    margin: 0 0 4px 0;
-  }
-  .bank-note__text{
-    font-size: var(--font);
-    margin: 0;
-  }
-</style>
-
-<section class="bank-note" aria-label="Aviso de mantenimiento">
-  <div class="bank-note__icon" aria-hidden="true">
-    
-    <svg viewBox="0 0 24 24" fill="none" stroke="#0f1923" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-      <path d="M3 10v4a2 2 0 0 0 2 2h2l2.5 4a1 1 0 0 0 1.8-.6V16h1a10 10 0 0 0 7-3.1V7.1A10 10 0 0 0 12.3 4H7a2 2 0 0 0-2 2"/>
-      <path d="M18.5 6.5a4 4 0 0 1 0 11"/>
-    </svg>
-  </div>
-
+   
 
  
 
